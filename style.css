@@ -41,5 +41,13 @@ footer{
 
 .card{
     align-items: center;
+    background: linear-gradient(to bottom, #2637DB, #342988);
+    padding: 5px;
+    
+    
+}
+
+.image{
+    background: linear-gradient(to bottom, #3E5EEF,#72CCFE)
     
 }
