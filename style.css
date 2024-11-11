@@ -2,6 +2,7 @@ body{
     font-family: Arial, sans-serif;
     background-color: rgb(201, 201, 201);
     color: white;
+    text-align: center;
     
     
 }
@@ -50,6 +51,12 @@ footer{
     border-image:linear-gradient(to bottom, #2637DB, #2f257a) ;
     border-radius: 6px;
 
+}
+
+.card-tittle{
+    text-align: center;
+    align-content: center;
+    font-size: 1.3rem;
 }
 
 .image{
