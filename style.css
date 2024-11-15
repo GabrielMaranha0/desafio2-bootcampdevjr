@@ -10,10 +10,10 @@ body{
 button{
     width: 60%;
     padding: 0.9rem 2rem;
-    color: #006a6a;
+    color: white;
     border-radius: 5px; 
     border: none;
-    background-color: #cccccc;
+    background-color:#1a001f;
     text-align: center;
     cursor: pointer;
     font-size: 1rem;
@@ -24,6 +24,15 @@ object{
     width: 10rem;
 }
 
+input{
+    width: 60%;
+    height: 0.5rem;
+    padding: 0.9rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 0;
+    margin: 10px;
+}
 footer{
     font-size: 0.8rem;
     margin-top: 1rem;
