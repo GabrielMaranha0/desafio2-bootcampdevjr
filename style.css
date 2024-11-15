@@ -7,6 +7,23 @@ body{
     
 }
 
+button{
+    width: 60%;
+    padding: 0.9rem 2rem;
+    color: #006a6a;
+    border-radius: 5px; 
+    border: none;
+    background-color: #cccccc;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+object{
+    width: 10rem;
+}
+
 footer{
     font-size: 0.8rem;
     margin-top: 1rem;
@@ -29,7 +46,7 @@ footer{
 }    
 
 .flex-container{
-    background: linear-gradient(to bottom, rgb(115, 1, 160) ,#340837);
+    background: linear-gradient(to bottom, rgb(115, 1, 160) ,#1a001f);
     border-radius: 6px;
 }
 
@@ -47,9 +64,10 @@ footer{
 }
 
 .card{
-    padding: 10px;
-    border-image:linear-gradient(to bottom, #2637DB, #2f257a) ;
+    padding: 0.8rem;
+    background: linear-gradient(to bottom, #2637DB, #2f257a);
     border-radius: 6px;
+
 
 }
 
@@ -61,7 +79,6 @@ footer{
 
 .image{
     background: linear-gradient(to bottom, #3E5EEF,#72CCFE);
-
 }
 
 
