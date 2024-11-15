@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, sans-serif;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(201, 201, 201);
     color: white;
     text-align: center;
@@ -25,13 +25,13 @@ object{
 }
 
 input{
-    width: 60%;
+    width: 70%;
     height: 0.5rem;
     padding: 0.9rem;
     font-size: 1.2rem;
     border-radius: 5px;
     border: 0;
-    margin: 10px;
+    margin: 0.625rem;
 }
 footer{
     font-size: 0.8rem;
@@ -40,7 +40,7 @@ footer{
 .container{ 
     background: linear-gradient(to bottom, #1a001f, rgb(115, 1, 160));
     margin: auto;
-    width: 700px;
+    width: 43.75rem;
     margin-top: 1rem ;
     border-radius: 6px; 
     overflow: hidden;
@@ -51,6 +51,7 @@ footer{
     color: #ffd000;
     font-size: 1.5rem;
     padding: 0.5rem;
+    font: Montserrat ;
     
 }    
 
@@ -67,7 +68,7 @@ footer{
 .image-container{
     display: flex;
     justify-content: space-around;
-    padding: 10px;
+    padding: 0.625rem;
     
 
 }
@@ -93,7 +94,23 @@ footer{
 
 
 @media screen and (max-width: 620px){
-    .image{
-        box-sizing: border-box
-    };
+    input{
+        width: 80%;
+    }
+    .container{
+        width: 95%;
+    }
+
+    .flex-container{
+        flex-direction: column;
+    }
+
+    .image-container{
+        flex-direction: column;
+      
+    }
+
+    .card{
+        margin: 8px;
+    }
 }
